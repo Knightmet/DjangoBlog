@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %} Home page {% endblock %}
+{% block content %}
+<div class="text-center">
+    <h1>WELCOM YOU</h1>
+    <h2>阿高倚在竹林边上，仰望着夜空银月，流云掩映，月光不移物影。</h2><br>
+    <h4>有很多道理是上了大学之后才懂得，也喜欢上了很多新奇的事物。爱好一望无际，凭借经常性的三分钟热度认识了更广阔的世界，邂逅了五光十色的人们，丝丝缕缕的接触维系着我们对他人的认知和感情。难免会遇到失败，保持信心，生活坎坷，但笑的时候天是晴的。</h4>
+    {% load staticfiles %}
+    <img src="{% static 'images/MetB.jpg' %}" width="400px">
+</div>
+{% endblock %}
